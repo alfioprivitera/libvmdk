@@ -491,6 +491,7 @@ int mount_handle_open(
 	if( ( disk_type != LIBVMDK_DISK_TYPE_FLAT_2GB_EXTENT )
 	 && ( disk_type != LIBVMDK_DISK_TYPE_SPARSE_2GB_EXTENT )
 	 && ( disk_type != LIBVMDK_DISK_TYPE_MONOLITHIC_SPARSE )
+	 && ( disk_type != LIBVMDK_DISK_TYPE_MONOLITHIC_FLAT )
 	 && ( disk_type != LIBVMDK_DISK_TYPE_STREAM_OPTIMIZED )
 	 && ( disk_type != LIBVMDK_DISK_TYPE_VMFS_FLAT )
 	 && ( disk_type != LIBVMDK_DISK_TYPE_VMFS_FLAT_PRE_ALLOCATED )
